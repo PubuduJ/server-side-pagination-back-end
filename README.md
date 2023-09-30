@@ -6,7 +6,7 @@ In order to manage front end pagination, the response includes the **entire numb
 
 More information about the API, including sample test cases, can be found in the API documentation linked below,
 
-
+- [**Students API documentation**](https://documenter.getpostman.com/view/25306703/2s9YJaYivd)
 
 ## Used Technologies
 
