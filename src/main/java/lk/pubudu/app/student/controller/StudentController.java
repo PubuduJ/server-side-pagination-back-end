@@ -20,7 +20,6 @@ public class StudentController {
             @RequestParam String q,
             @RequestParam int size,
             @RequestParam int page) {
-        System.out.println("Yes");
         return ResponseEntity.status(HttpStatus.OK).body(studentService.getPaginatedStudentsByQuery(q, size, page));
     }
 
