@@ -2,7 +2,7 @@
 
 This project demonstrates how to handle **server-side pagination using a spring boot backend.** 
 Under the **students** resource, an API is exposed to receive paginated students based on the **search query.** 
-In order to manage front end pagination, the response includes the **entire number of records** for the requested search query as well. \
+In order to manage front end pagination, the response includes the **entire number of records** for the requested search query as well.
 
 More information about the API, including sample test cases, can be found in the API documentation linked below,
 
