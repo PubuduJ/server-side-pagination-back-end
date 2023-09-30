@@ -18,8 +18,8 @@ public class StudentService {
         String query = "%".concat(q).concat("%");
         int offset = (page - 1) * size;
         List<Student> studentList = studentRepository.getPaginatedStudentsByQuery(query, size, offset);
-        StudentResponse studentResponse = new StudentResponse();
-        return null;
+        Integer totalCount = studentRepository.getTotalStudentCountForQuery(query);
+        return new StudentResponse(totalCount, studentList);
     }
 
 }
