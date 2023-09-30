@@ -15,11 +15,12 @@ public class StudentController {
 
     private final StudentService studentService;
 
-    @GetMapping(params = {"q, size, page"}, produces = "application/json")
+    @GetMapping(params = {"q", "size", "page"}, produces = "application/json")
     public ResponseEntity<StudentResponse> getPaginatedStudentsByQuery(
             @RequestParam String q,
             @RequestParam int size,
             @RequestParam int page) {
+        System.out.println("Yes");
         return ResponseEntity.status(HttpStatus.OK).body(studentService.getPaginatedStudentsByQuery(q, size, page));
     }
 
