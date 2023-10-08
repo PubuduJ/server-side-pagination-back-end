@@ -4,6 +4,8 @@ This project demonstrates how to handle **server-side pagination using a spring 
 Under the **students** resource, an API is exposed to receive paginated students based on the **search query.** 
 In order to manage front end pagination, the response includes the **entire number of records** for the requested search query as well.
 
+Front end of the project can be visited from [**here.**](https://github.com/PubuduJ/server-side-pagination-front-end)
+
 More information about the API, including sample test cases, can be found in the API documentation linked below,
 
 - [**Students API documentation**](https://documenter.getpostman.com/view/25306703/2s9YJaYivd)
